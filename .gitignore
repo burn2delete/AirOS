@@ -11,3 +11,7 @@ web/bundles/*
 # Configuration files
 app/config/parameters.ini
 composer.phar
+
+# OS Files
+.DS_Store
+.Project
