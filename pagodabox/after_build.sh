@@ -8,4 +8,4 @@ if [ ! -f composer.phar ]
 fi
 
 echo 'Install the needed vendors for this application.'
-$PHP composer.phar install --quiet
+$PHP composer.phar install --verbose
