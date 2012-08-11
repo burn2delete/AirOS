@@ -11,10 +11,14 @@
         }, {
             "type": "vcs",
             "url": "https://github.com/flyboarder/CoreBundle.git"
+        }, {
+            "type": "vcs",
+            "url": "https://github.com/flyboarder/composer_installers.git"
         }
     ],
     "require": {
         "php": ">=5.3.3",
+        "composer/installers": "dev-symfony2",
         "symfony/symfony": "2.1.*",
         "doctrine/orm": "2.2.*",
         "doctrine/doctrine-bundle": "dev-master",
@@ -27,7 +31,7 @@
         "sensio/generator-bundle": "dev-master",
         "jms/security-extra-bundle": "1.1.*",
         "jms/di-extra-bundle": "1.0.*",
-        "airos/core-bundle": "*"
+        "airos/corebundle": "dev-test"
     },
     "scripts": {
         "post-install-cmd": [
