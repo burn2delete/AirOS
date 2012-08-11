@@ -9,8 +9,8 @@
             "type": "composer",
             "url": "http://airos-satis.pagodabox.com"
         }, {
-            "type": "git",
-            "url": "http://github.com/flyboarder/AirOSCoreBundle"
+            "type": "vcs",
+            "url": "https://github.com/flyboarder/AirOSCoreBundle.git"
         }
     ],
     "require": {
