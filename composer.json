@@ -10,7 +10,7 @@
             "url": "http://airos-satis.pagodabox.com"
         }, {
             "type": "vcs",
-            "url": "https://github.com/flyboarder/AirOSCoreBundle.git"
+            "url": "https://github.com/flyboarder/CoreBundle.git"
         }
     ],
     "require": {
