@@ -10,10 +10,7 @@
             "url": "http://airos-satis.pagodabox.com"
         }, {
             "type": "vcs",
-            "url": "http://github.com/flyboarder/composer_installers"
-        }, {
-            "type": "vcs",
-            "url": "http://github.com/flyboarder/CoreBundle"
+            "url": "https://github.com/flyboarder/CoreBundle.git"
         }
     ],
     "require": {
