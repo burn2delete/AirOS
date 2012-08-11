@@ -6,7 +6,10 @@
     },
     "repositories": [
         {
-            "type": "vcs",
+            "type": "composer",
+            "url": "http://airos-satis.pagodabox.com"
+        }, {
+            "type": "git",
             "url": "http://github.com/flyboarder/AirOSCoreBundle"
         }
     ],
