@@ -15,6 +15,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
+        "airos/composer-installers": "*",
         "symfony/symfony": "2.1.*",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "doctrine/doctrine-bundle": "dev-master",
@@ -47,6 +48,9 @@
     "minimum-stability": "dev",
     "extra": {
         "symfony-app-dir": "app",
-        "symfony-web-dir": "web"
+        "symfony-web-dir": "web",
+        "installer-paths": {
+            "src/{$vendor}/{$name}": ["airos/corebundle"]
+        }
     }
 }

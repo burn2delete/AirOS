@@ -13,6 +13,7 @@ bin/*
 # Configuration files
 app/config/parameters.ini
 composer.phar
+composer.lock
 
 # OS Files
 .DS_Store
