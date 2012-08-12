@@ -8,9 +8,6 @@
         {
             "type": "composer",
             "url": "http://airos-satis.pagodabox.com"
-        }, {
-            "type": "vcs",
-            "url": "https://github.com/flyboarder/CoreBundle.git"
         }
     ],
     "require": {
