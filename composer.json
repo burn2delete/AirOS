@@ -11,14 +11,11 @@
         }, {
             "type": "vcs",
             "url": "https://github.com/flyboarder/CoreBundle.git"
-        }, {
-            "type": "vcs",
-            "url": "https://github.com/flyboarder/composer_installers.git"
         }
     ],
     "require": {
         "php": ">=5.3.3",
-        "composer/installers": "dev-symfony2",
+        "airos/composer-installers": "dev-master",
         "symfony/symfony": "2.1.*",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "doctrine/doctrine-bundle": "dev-master",
