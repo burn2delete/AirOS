@@ -31,7 +31,7 @@
         "sensio/generator-bundle": "dev-master",
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
-        "airos/corebundle": "dev-test"
+        "airos/corebundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
