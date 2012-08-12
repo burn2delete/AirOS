@@ -58,6 +58,6 @@ swiftmailer:
     password:  %mailer_password%
     spool:     { type: memory }
     
-air_os_core: 
-    setup: enable
+#air_os_core: 
+#    setup: enable
     
