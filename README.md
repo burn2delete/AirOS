@@ -98,9 +98,9 @@ playing with it, you can remove it by following these steps:
 
   * remove the `web/bundles/acmedemo` directory;
 
-  * remove the inclusion of the security configuration in
-    `app/config/config.yml` (remove the `- { resource: security.yml }` line)
-    or tweak the security configuration to fit your needs.
+  * remove the `security.providers`, `security.firewalls.login` and
+    `security.firewalls.secured_area` entries in the `security.yml` file or
+    tweak the security configuration to fit your needs.
 
 What's inside?
 ---------------
@@ -161,7 +161,7 @@ Enjoy!
 [2]:  http://getcomposer.org/
 [3]:  http://symfony.com/download
 [4]:  http://symfony.com/doc/2.1/quick_tour/the_big_picture.html
-[5]:  http://symfony.com/doc/2.1/
+[5]:  http://symfony.com/doc/2.1/index.html
 [6]:  http://symfony.com/doc/2.1/bundles/SensioFrameworkExtraBundle/index.html
 [7]:  http://symfony.com/doc/2.1/book/doctrine.html
 [8]:  http://symfony.com/doc/2.1/book/templating.html
@@ -169,6 +169,6 @@ Enjoy!
 [10]: http://symfony.com/doc/2.1/cookbook/email.html
 [11]: http://symfony.com/doc/2.1/cookbook/logging/monolog.html
 [12]: http://symfony.com/doc/2.1/cookbook/assetic/asset_management.html
-[13]: http://jmsyst.com/bundles/JMSSecurityExtraBundle/1.1
-[14]: http://jmsyst.com/bundles/JMSDiExtraBundle/1.0
+[13]: http://jmsyst.com/bundles/JMSSecurityExtraBundle/master
+[14]: http://jmsyst.com/bundles/JMSDiExtraBundle/master
 [15]: http://symfony.com/doc/2.1/bundles/SensioGeneratorBundle/index.html

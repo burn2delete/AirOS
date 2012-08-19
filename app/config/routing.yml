@@ -2,6 +2,3 @@
 #_internal:
 #    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #    prefix:   /_internal
-AirOSCoreBundle:
-     resource: "@AirOSCoreBundle/Resources/config/routing.yml"
-     prefix: /
