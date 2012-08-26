@@ -7,7 +7,21 @@ vendor/*
 */cache/*
 web/uploads/*
 web/bundles/*
+src/*
+bin/*
 
 # Configuration files
 app/config/parameters.ini
+=======
+web/bundles/
+app/bootstrap.php.cache
+app/cache/*
+app/logs/*
+build/
+vendor
+bin
 composer.phar
+
+# OS Files
+.DS_Store
+.Project
