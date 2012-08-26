@@ -7,7 +7,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "http://airos-satis.pagodabox.com"
+            "url": "http://airos-repo-core.pagodabox.com"
         }
     ],
     "require": {
