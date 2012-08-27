@@ -12,7 +12,6 @@ bin/*
 
 # Configuration files
 app/config/parameters.ini
-=======
 web/bundles/
 app/bootstrap.php.cache
 app/cache/*
@@ -21,7 +20,8 @@ build/
 vendor
 bin
 composer.phar
+composer.lock
 
-# OS Files
+# OS/IDE Files
 .DS_Store
 .Project
