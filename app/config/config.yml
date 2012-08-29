@@ -58,4 +58,5 @@ swiftmailer:
     password:  %mailer_password%
     spool:     { type: memory }
 
-airos_core: ~
+airos_core:
+    setup: enable
