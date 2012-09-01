@@ -59,4 +59,4 @@ swiftmailer:
     spool:     { type: memory }
 
 airos_core:
-    setup: enable
+    setup: enabled
