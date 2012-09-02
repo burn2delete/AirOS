@@ -1,5 +1,5 @@
 # Bootstrap
-app/bootstrap*
+airos/bootstrap*
 
 # Symfony directories
 vendor/*
@@ -11,11 +11,11 @@ src/*
 bin/*
 
 # Configuration files
-app/config/parameters.ini
+airos/config/parameters.ini
 web/bundles/
-app/bootstrap.php.cache
-app/cache/*
-app/logs/*
+airos/bootstrap.php.cache
+airos/cache/*
+airos/logs/*
 build/
 vendor
 bin
