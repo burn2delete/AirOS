@@ -1,7 +1,7 @@
 AirOS
 =====
 
-[![Build Status](https://secure.travis-ci.org/AirOS/AirOS.png)](http://travis-ci.org/AirOS/AirOS)
+[![Build Status](https://secure.travis-ci.org/AirOS/AirOS.png?branch=master,staging,production)](http://travis-ci.org/AirOS/AirOS)
 
 Welcome to the Symfony Standard Edition - a fully-functional Symfony2
 webdesktop framework.
