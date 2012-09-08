@@ -3,5 +3,5 @@
 #    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #    prefix:   /_internal
 airos_core:
-    resource: "@AirosCoreBundle/Resources/config/routing.yml"
+    resource: "@AirosCoreBundle/Resources/config/setup_routing.yml"
     prefix:   /_setup
