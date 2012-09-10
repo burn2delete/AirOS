@@ -5,3 +5,6 @@
 airos_core_setup:
     resource: "@AirosCoreBundle/Resources/config/setup_routing.yml"
     prefix:   /_setup
+
+airos_core_main:
+    resource: "@AirosCoreBundle/Resources/config/main_routing.yml"
