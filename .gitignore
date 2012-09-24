@@ -25,3 +25,4 @@ composer.lock
 # OS/IDE Files
 .DS_Store
 .Project
+.buildpath
