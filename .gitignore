@@ -18,7 +18,6 @@ airos/cache/*
 airos/logs/*
 build/
 vendor
-bin
 composer.phar
 composer.lock
 
