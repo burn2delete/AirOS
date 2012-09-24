@@ -58,9 +58,5 @@ swiftmailer:
     password:  %mailer_password%
     spool:     { type: memory }
 
-jms_di_extra:
-    locations:
-        all_bundles: true
-
 airos_core:
     setup: true
