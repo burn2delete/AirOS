@@ -8,3 +8,7 @@ airos_core_setup:
 
 airos_core_main:
     resource: "@AirosCoreBundle/Resources/config/main_routing.yml"
+
+automagic:
+    resource: .
+    type: automagic
