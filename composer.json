@@ -1,51 +1,50 @@
 {
-    "name": "airos/airos-standard-edition",
-    "description": "The \"AirOS Standard Edition\" - Ajax vIRtual Operating System",
     "autoload": {
-        "psr-0": { "": "src/" }
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://airos-repo-core.pagodabox.com"
+        "psr-0":         {
+            "": "src/"
         }
-    ],
-    "require": {
-        "php": ">=5.3.3",
-        "symfony/symfony": "2.1.*",
-        "doctrine/orm": ">=2.2.3,<2.4-dev",
-        "doctrine/doctrine-bundle": "dev-master",
-        "twig/extensions": "dev-master",
-        "symfony/assetic-bundle": "dev-master",
-        "symfony/swiftmailer-bundle": "dev-master",
-        "symfony/monolog-bundle": "dev-master",
-        "sensio/distribution-bundle": "dev-master",
-        "sensio/framework-extra-bundle": "dev-master",
-        "sensio/generator-bundle": "dev-master",
-        "jms/security-extra-bundle": "1.2.*",
-        "jms/di-extra-bundle": "1.1.*",
-        "airos/corebundle": "0.1.*-dev"
     },
-    "scripts": {
-        "post-install-cmd": [
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
-        ],
-        "post-update-cmd": [
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
-        ]
-    },
-    "config": {
-        "bin-dir": "bin"
-    },
-    "minimum-stability": "dev",
+    "description": "The \"AirOS Standard Edition\" - Ajax vIRtual Operating System",
     "extra": {
         "symfony-app-dir": "airos",
         "symfony-web-dir": "web"
+    },
+    "minimum-stability": "dev",
+    "name": "airos/airos-standard-edition",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://airos-repo.pagodabox.com"
+        }
+    ],
+    "require": {
+        "airos/automagicbundle": "0.1.*-dev",
+        "doctrine/doctrine-bundle": "1.0.*",
+        "doctrine/orm": ">=2.2.3,<2.4-dev",
+        "jms/di-extra-bundle": "1.1.*",
+        "jms/security-extra-bundle": "1.2.*",
+        "php": ">=5.3.3",
+        "sensio/distribution-bundle": "2.1.*",
+        "sensio/framework-extra-bundle": "2.1.*",
+        "sensio/generator-bundle": "2.1.*",
+        "symfony/assetic-bundle": "2.1.*",
+        "symfony/monolog-bundle": "2.1.*",
+        "symfony/swiftmailer-bundle": "2.1.*",
+        "symfony/symfony": "2.1.*",
+        "twig/extensions": "1.0.*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+"Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+"Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+"Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+"Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
+    ],
+        "post-update-cmd": [
+"Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+"Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+"Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+"Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
+    ]
     }
 }

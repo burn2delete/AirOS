@@ -18,10 +18,10 @@ airos/cache/*
 airos/logs/*
 build/
 vendor
-bin
 composer.phar
 composer.lock
 
 # OS/IDE Files
 .DS_Store
 .Project
+.buildpath
