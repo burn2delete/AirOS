@@ -14,11 +14,11 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "http://airos-repo-core.pagodabox.com"
+            "url": "http://airos-repo.pagodabox.com"
         }
     ],
     "require": {
-        "airos/corebundle": "0.1.*-dev",
+        "airos/automagicbundle": "0.1.*-dev",
         "doctrine/doctrine-bundle": "1.0.*",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "jms/di-extra-bundle": "1.1.*",
