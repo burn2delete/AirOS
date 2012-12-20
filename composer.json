@@ -18,7 +18,7 @@
         }
     ],
     "require": {
-        "airos/automagicbundle": "0.1.*-dev",
+        "airos/automagickernelbundle": "0.1.*-dev",
         "doctrine/doctrine-bundle": "1.0.*",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "jms/di-extra-bundle": "1.1.*",
