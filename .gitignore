@@ -1,5 +1,5 @@
 # Bootstrap
-app/bootstrap*
+airos/bootstrap*
 
 # Symfony directories
 vendor/*
@@ -7,17 +7,23 @@ vendor/*
 */cache/*
 web/uploads/*
 web/bundles/*
+src/*
+bin/*
 
 # Configuration files
-app/config/parameters.ini
+airos/config/parameters.ini
+web/bundles/
+airos/bootstrap.php.cache
+airos/cache/*
+airos/logs/*
+build/
+vendor
+composer.phar
+composer.lock
 
-# OS Files
+# OS/IDE Files
 .DS_Store
-.project
+.Project
+.buildpath
+.c9*
 
-# Composer Files
-*/composer*
-
-# IDE Files
-.c9revisions
-.settings

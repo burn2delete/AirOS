@@ -1,7 +1,7 @@
 web1:
     shared_writable_dirs:
-     - app/cache
-     - app/logs
+     - airos/cache
+     - airos/logs
 
     document_root: web
     default_gateway: app.php
@@ -25,7 +25,7 @@ web1:
      - "bash pagodabox/after_build.sh"
 
     #before_deploy:
-    # - "php app/console doctrine:migrations:migrate --no-interaction"
+    # - "php airos/console doctrine:migrations:migrate --no-interaction"
 
     after_deploy:
      - "bash pagodabox/after_deploy.sh"
